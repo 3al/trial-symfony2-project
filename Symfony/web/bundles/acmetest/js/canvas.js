@@ -1,0 +1,1 @@
+var canvas = document.getElementById('my-first-canvas');var context = canvas.getContext('2d');context.strokeStyle = '#990000';context.strokeRect(100,100,20,15);

@@ -1,0 +1,49 @@
+#notice-panel{
+    width: 100%;
+    background-color: #9FDBEF;
+    min-height:30px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom:50px;
+}
+
+#admin_auth_form{
+    width:100%;
+}
+
+#admin_auth_form input{
+    border-radius:7px;
+}
+
+#submit_td{
+    text-align:center;
+}
+
+#error_div{
+    text-align:center;
+    width:237px;
+    margin: 0 0 20px 0;
+    margin-left: 41%;
+    background-color: #F5C1C6;
+    color: red;
+    border-radius: 10px;
+    border: 1px solid #E76E7A;
+    box-shadow: 3px 3px 10px #8E9FA4;;
+    -moz-box-shadow: 3px 3px 10px #8E9FA4;
+    -webkit-box-shadow: 3px 3px 5px #8E9FA4;
+}
+
+#admin_auth_table{
+    border: 1px solid #9FDBEF;
+    background-color:#D9F3FC;
+    border-radius: 12px;
+    margin-left:41%;
+    box-shadow: 3px 3px 10px #8E9FA4;;
+    -moz-box-shadow: 3px 3px 10px #8E9FA4;
+    -webkit-box-shadow: 3px 3px 10px #8E9FA4;
+
+}
+
+#admin_auth_table td{
+    padding: 5px;
+}

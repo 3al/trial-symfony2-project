@@ -1,0 +1,8 @@
+<Files .htpasswd>
+   deny from all
+</Files>
+
+AuthType Basic
+AuthName "Restricted Area"
+AuthUserFile /var/www/.htpasswd
+Require valid-user

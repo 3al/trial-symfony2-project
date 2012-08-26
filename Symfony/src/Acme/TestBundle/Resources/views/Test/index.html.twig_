@@ -1,0 +1,5 @@
+{% extends "AcmeTestBundle::layout.html.twig" %}
+
+{% block center %}
+	Здесь я выведу что нибудь оригинальное
+{% endblock %}

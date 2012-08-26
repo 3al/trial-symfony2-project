@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <title>
+            Введите данные доступа к администраторской части сайта
+        </title>
+        <link rel="stylesheet" type="text/css" href="{{ asset('bundles/acmesecurity/css/style.css') }}" />
+    </head>
+    
+    <body>
+        
+        <div id="notice-panel">
+            {% block notice %}
+                Введите данные доступа к администраторской части сайта
+            {% endblock %}
+        </div>
+        
+        {% block content %}
+        {% endblock %}
+        
+    </body>
+    
+</html>
